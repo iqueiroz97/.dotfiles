@@ -1,0 +1,4 @@
+alias cat='bat'
+alias install='brew install'
+alias uninstall='brew uninstall'
+alias search='brew search'
