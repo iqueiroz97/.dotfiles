@@ -9,4 +9,4 @@
 	name = Igor Queiroz
 	email = 60364183+iqueiroz97@users.noreply.github.com
 [core]
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.git/.gitignore_global
