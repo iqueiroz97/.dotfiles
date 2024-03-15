@@ -1,5 +1,5 @@
 # .dotfiles
-My dotfile configurations
+My dotfiles configurations
 
 ## Prerequisites:
 
@@ -13,8 +13,8 @@ My dotfile configurations
 
 To install yadm temporarily, then clone the .dotfiles repo and bootstrap the system, run the following command:
 
-TO-DO
-: Create the bootstrap script
+<!-- TO-DO
+: Create the bootstrap script -->
 
 ```shell
 curl -sL https://github.com/iqueiroz97/.dotfiles/raw/main/pre_bootstrap.sh | bash
@@ -22,8 +22,8 @@ curl -sL https://github.com/iqueiroz97/.dotfiles/raw/main/pre_bootstrap.sh | bas
 
 ### Update plugins with submodules
 
-TO-DO
-: Understand this command
+<!-- TO-DO
+: Understand this command -->
 
 ```shell
 yadm submodule update --remote
