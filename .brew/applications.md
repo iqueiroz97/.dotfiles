@@ -1,0 +1,13 @@
+bat
+ca-certificates
+docker-completion
+exercism
+eza
+libgit2
+libssh2
+oniguruma
+openssl@3
+starship
+yadm
+betterdisplay
+raycast
