@@ -1,0 +1,12 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHeq0AO71Agn3zap86A6zK5QLU4thhTAc8wqbDCkHF6z
+	name = Igor Queiroz
+	email = 60364183+iqueiroz97@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
