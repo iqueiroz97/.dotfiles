@@ -1,4 +1,17 @@
+# cat
 alias cat='bat'
+
+# homebrew
 alias install='brew install'
 alias uninstall='brew uninstall'
 alias search='brew search'
+
+# eza
+alias ls='eza -lhob --icons --no-user --group-directories-first'
+alias la='eza -lhoba --icons --no-user --group-directories-first'
+alias lt='eza -lhobT --icons --no-user --group-directories-first'
+alias lta='eza -lhobaT --icons --no-user --group-directories-first'
+alias lr='eza -lhobR --icons --no-user --group-directories-first'
+alias lra='eza -lhobaR --icons --no-user --group-directories-first'
+alias lg='eza --icons --group-directories-first'
+alias lga='eza -a --icons --group-directories-first'

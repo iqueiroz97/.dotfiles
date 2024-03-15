@@ -1,8 +1,13 @@
 # ~/.config/starship.toml
 
-add_newline = false
-command_timeout = 1000
+# Use custom format
 format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# Timeout for commands executed by starship (in milliseconds).
+command_timeout = 1000
 
 # Drop ugly default prompt characters
 [character]
@@ -12,7 +17,7 @@ error_symbol = ''
 # ---
 
 [os]
-format = '[$symbol](bold white) '   
+format = '[$symbol](bold white) '
 disabled = true
 
 [os.symbols]
@@ -49,7 +54,7 @@ format = 'at [$path]($style)[$read_only]($read_only_style) '
 [git_branch]
 symbol = ' '
 format = 'via [$symbol$branch]($style)'
-# truncation_length = 4
+truncation_length = 4
 truncation_symbol = '…/'
 style = 'bold green'
 
