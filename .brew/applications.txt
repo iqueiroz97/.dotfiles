@@ -1,0 +1,7 @@
+bat
+exercism
+eza
+starship
+yadm
+betterdisplay
+raycast
