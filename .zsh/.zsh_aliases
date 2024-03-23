@@ -4,7 +4,11 @@ alias cat='bat'
 # homebrew
 alias install='brew install'
 alias uninstall='brew uninstall'
+alias update='brew update'
+alias upgrade='brew upgrade'
 alias search='brew search'
+alias info='brew info'
+alias list='brew list'
 
 # eza
 alias ls='eza -lhob --icons --no-user --group-directories-first'
