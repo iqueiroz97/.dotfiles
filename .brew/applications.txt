@@ -16,6 +16,7 @@ yadm
 1password
 arc
 betterdisplay
+discord
 docker
 figma
 google-chrome
