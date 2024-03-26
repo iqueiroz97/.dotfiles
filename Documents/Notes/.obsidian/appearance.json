@@ -1,3 +1,8 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }

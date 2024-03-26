@@ -11,14 +11,11 @@
             "id": "ca93cc841ee2b93e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -255,
-                  "y": -300,
-                  "zoom": 0
-                }
+                "file": "👨🏻 pessoal/💰 economia.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "👨🏻 pessoal/💰 economia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "👨🏻 pessoal/💰 economia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "👨🏻 pessoal/💰 economia.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -144,16 +142,19 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
   "active": "ca93cc841ee2b93e",
   "lastOpenFiles": [
-    "create a link.md",
+    "IR Exercício 2023.md",
+    "👨🏻 pessoal/💰 economia.md",
     "Untitled.canvas",
     "Welcome.md",
+    "👨🏻 pessoal",
+    "create a link.md",
     "VS Code Settings.md"
   ]
 }
