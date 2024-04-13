@@ -20,7 +20,6 @@ betterdisplay
 discord
 docker
 figma
-google-chrome
 google-drive
 hiddenbar
 intellij-idea-ce
@@ -28,12 +27,10 @@ lulu
 maccy
 mos
 notion
-obsidian
 postman
 raycast
 readdle-spark
 shottr
-spotify
 telegram
 visual-studio-code
 warp
