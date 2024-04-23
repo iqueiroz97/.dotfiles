@@ -27,6 +27,7 @@ lulu
 maccy
 mos
 notion
+notion-calendar
 postman
 raycast
 readdle-spark
