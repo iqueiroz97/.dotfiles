@@ -19,6 +19,7 @@ arc
 betterdisplay
 discord
 docker
+duckduckgo
 figma
 google-drive
 hiddenbar
@@ -33,6 +34,7 @@ raycast
 readdle-spark
 shottr
 telegram
+todoist
 visual-studio-code
 warp
 whatsapp
