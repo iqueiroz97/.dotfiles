@@ -10,6 +10,7 @@ libtermkey
 libunistring
 libuv
 libvterm
+lpeg
 luajit
 luv
 msgpack
@@ -26,6 +27,7 @@ yadm
 anytype
 arc
 betterdisplay
+chatgpt
 discord
 docker
 duckduckgo
