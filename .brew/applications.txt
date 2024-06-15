@@ -6,7 +6,6 @@ gettext
 libgit2
 libidn2
 libssh2
-libtermkey
 libunistring
 libuv
 libvterm
