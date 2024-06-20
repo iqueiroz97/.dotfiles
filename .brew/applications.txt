@@ -37,8 +37,8 @@ mos
 notion
 notion-calendar
 postman
-raycast
 readdle-spark
+rectangle
 telegram
 todoist
 visual-studio-code
