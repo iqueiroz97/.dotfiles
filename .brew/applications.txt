@@ -24,15 +24,18 @@ wget
 yadm
 1password
 anytype
+appcleaner
 arc
 betterdisplay
 brave-browser
+chatgpt
 discord
 docker
 figma
 google-drive
 hiddenbar
 intellij-idea-ce
+knockknock
 mos
 notion
 notion-calendar
@@ -44,3 +47,4 @@ todoist
 visual-studio-code
 warp
 whatsapp
+zed
