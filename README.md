@@ -28,3 +28,11 @@ curl -sL https://github.com/iqueiroz97/.dotfiles/raw/main/pre_bootstrap.sh | bas
 ```shell
 yadm submodule update --remote
 ````
+
+### Crontab file recover
+
+```shell
+yadm clone <repo>
+yadm checkout
+crontab ~/.crontab
+```
