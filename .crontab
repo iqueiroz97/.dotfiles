@@ -9,5 +9,8 @@ PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # crontab
 15 3 * * * crontab -l > ~/.crontab
 
+# SDKMAN
+0 5 * * 6 ~/.scripts/update_java.sh
+
 # YADM
 30 3 * * * cd ~ && (yadm status --porcelain | grep '^[ M| D]' && yadm add -u && yadm commit -m "dotfiles automatic update") && yadm push -u origin main
