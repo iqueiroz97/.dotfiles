@@ -9,3 +9,8 @@ brew list > ~/.brew/applications.txt
 ```shell
 xargs brew install < applications.txt
 ```
+
+## Instaling only applications that are not instaled yet
+```shell
+cat applications.txt | xargs -I {} sh -c 'brew list {} || brew install {}'
+```
