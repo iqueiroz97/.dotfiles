@@ -1,0 +1,19 @@
+# Define o PATH
+PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+# Cronjobs
+# Brew
+10 3 * * * brew list > ~/.brew/applications.txt >> ~/.cron/cronjob.log 2>&1
+0 3 * * 1,6 brew update && brew upgrade >> ~/.cron/cronjob.log 2>&1
+
+# cleanup
+0 7 * * 0 tail -n 100 ~/.cron/cronjob.log > ~/.cron/cronjob_temp.log && mv ~/.cron/cronjob_temp.log ~/.cron/cronjob.log
+
+# crontab
+15 3 * * * crontab -l > ~/.crontab >> ~/.cron/cronjob.log 2>&1
+
+# SDKMAN
+0 5 * * 6 ~/.scripts/update_java.sh >> ~/.cron/cronjob.log 2>&1
+
+# YADM
+30 3 * * * cd ~ && (yadm status --porcelain | grep '^[ M| D]' && yadm add -u && yadm commit -m "dotfiles automatic update") && yadm push -u origin main >> ~/.cron/cronjob.log 2>&1
