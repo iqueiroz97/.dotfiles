@@ -2,6 +2,7 @@ bat
 ca-certificates
 exercism
 eza
+fzf
 gettext
 libgit2
 libidn2
@@ -22,7 +23,7 @@ tree-sitter
 unibilium
 wget
 yadm
-z
+zoxide
 1password
 anytype
 appcleaner

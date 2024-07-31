@@ -4,6 +4,9 @@ source ~/.zsh/.zsh_aliases
 # Inicia o starship shell
 eval "$(starship init zsh)"
 
+# zoxide (cd como alias)
+eval "$(zoxide init --cmd cd zsh)"
+
 # Automatically "Warpify" subshells
 # printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
 
