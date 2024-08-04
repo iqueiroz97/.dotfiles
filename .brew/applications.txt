@@ -5,6 +5,7 @@ eza
 fzf
 gettext
 libgit2
+libgit2@1.7
 libidn2
 libssh2
 libunistring
