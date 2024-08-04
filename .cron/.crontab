@@ -16,4 +16,4 @@ PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 0 5 * * 6 ~/.scripts/update_java.sh >> ~/.cron/cronjob.log 2>&1
 
 # YADM
-30 3 * * * cd ~ && (yadm status --porcelain | grep '^[ M| D]' && yadm add -u && yadm commit -m "dotfiles automatic update") && yadm push -u origin main >> ~/.cron/cronjob.log 2>&1
+30 3 * * * ~/.scripts/auto_push.sh >> ~/.cron/cronjob.log 2>&1

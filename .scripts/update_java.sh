@@ -13,4 +13,4 @@ latest_version=$(sdk list java | grep -o '17\.[0-9.]*-tem' | head -n 1)
 sdk install java "$latest_version"
 
 # Define a versão instalada como padrão
-sdk use java "$latest_version" --default
+sdk default java "$latest_version"
