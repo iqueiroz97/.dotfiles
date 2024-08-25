@@ -12,5 +12,3 @@
 	excludesfile = ~/.gitignore/.gitignore_global
 [status]
 	showUntrackedFiles = no
-[credential]
-	helper = store
