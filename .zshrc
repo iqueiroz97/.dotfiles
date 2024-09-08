@@ -7,6 +7,9 @@ eval "$(starship init zsh)"
 # zoxide (cd como alias)
 eval "$(zoxide init --cmd cd zsh)"
 
+# Parametros do zsh
+PROMPT_EOL_MARK=''
+
 # Automatically "Warpify" subshells
 # printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
 
