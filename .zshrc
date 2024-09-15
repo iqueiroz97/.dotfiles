@@ -7,7 +7,11 @@ eval "$(starship init zsh)"
 # zoxide (cd como alias)
 eval "$(zoxide init --cmd cd zsh)"
 
+# fzf shell integration
+source <(fzf --zsh)
+
 # Parametros do zsh
+# Remove o "%" ao dos comandos de terminal
 PROMPT_EOL_MARK=''
 
 # Automatically "Warpify" subshells
