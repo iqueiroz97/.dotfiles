@@ -45,7 +45,6 @@ notion
 notion-calendar
 postman
 readdle-spark
-rectangle
 telegram
 todoist
 visual-studio-code
