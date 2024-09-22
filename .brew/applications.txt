@@ -38,7 +38,7 @@ docker
 figma
 google-drive
 hiddenbar
-intellij-idea-ce
+intellij-idea
 knockknock
 mos
 notion
