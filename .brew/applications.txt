@@ -29,7 +29,6 @@ zoxide
 1password-cli
 anytype
 appcleaner
-arc
 betterdisplay
 brave-browser
 chatgpt
