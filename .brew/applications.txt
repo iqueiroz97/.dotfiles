@@ -27,7 +27,6 @@ yadm
 zoxide
 1password
 1password-cli
-anytype
 appcleaner
 betterdisplay
 brave-browser
@@ -38,10 +37,8 @@ figma
 google-drive
 hiddenbar
 intellij-idea
-knockknock
 mos
 notion
-notion-calendar
 postman
 readdle-spark
 telegram
@@ -50,4 +47,3 @@ visual-studio-code
 warp
 whatsapp
 zed
-zen-browser
