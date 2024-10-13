@@ -85,7 +85,9 @@ disabled = false
 disabled = true
 
 [docker_context]
-disabled = true
+format = 'via [ $context](bold blue) '
+disabled = false
+only_with_files = true
 
 [helm]
 disabled = true
